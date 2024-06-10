@@ -13,7 +13,7 @@ export default function TopSection() {
         </div>
         <div className='flex flex-col gap-3'>
             <h1 className='text-orange-600 text-5xl text-left'>Play & Earn</h1>
-            <p className='text-left text-xl p-1'>Multiplayer Gaming Whatsapp Group Platform
+            <p className='text-left text-xl p-1'>Ludo Whatsapp Group Platform
                 to earn real money
             </p>
             <Button className=' bg-clip-border bg-white rounded-md p-4 ml-1 w-fit'>
@@ -24,7 +24,7 @@ export default function TopSection() {
                         height={30}
                         width={30}
                     />
-                    Join Now
+                    Join The Group Now
                 </a>
             </Button>
         </div>
