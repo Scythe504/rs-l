@@ -7,16 +7,16 @@ export default function SecondSection() {
         <div>
             <img src={cloud} alt='cloud' />
         </div>
-        <div className='bg-[#dbdecb] h-fit -z-10 -mt-2' >
+        <div className='bg-[#dbdecb] h-fit w-screen -z-10 -mt-2 md:px-40 overflow-hidden    ' >
             <h1 className='text-center text-5xl text-black font-satoshi-black pt-4'>How To Play</h1>
-            <p>Watch youtube video, <a 
+            <p className='text-xl text-black text-center'>Watch youtube video, <a 
             href="https://youtu.be/s3ZALjXtODY?si=RoMnaBVjgl74-AyU" 
             target='_blank' 
-            className=' underline'>How to play
+            className=' underline text-orange-500'>How to play
             </a>
             </p>
             <div className='flex p-3 gap-2 items-center justify-center'>
-                <img src={cycle}></img>
+                <img src={cycle} alt='tutorial'></img>
             </div>
         </div>
     </div>
