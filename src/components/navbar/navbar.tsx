@@ -1,5 +1,5 @@
 import { LucideAlignJustify } from 'lucide-react'
-import logo from '../../assets/image.png'
+import logo from '../../assets/crown.png'
 import { DropdownMenuDemo } from './drop-down/drop'
 
 export default function Navbar() {
@@ -19,7 +19,7 @@ export default function Navbar() {
             </div>
             <div className='font-lactosa flex flex-row space-x-1'>
                 <p className='text-orange-600 text-3xl'>Ludo</p>
-                <p>Club</p>
+                <p className='text-4xl'>Group</p>
             </div>
         </div>
         {/* menu bar */}

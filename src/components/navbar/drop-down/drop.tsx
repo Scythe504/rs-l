@@ -34,7 +34,6 @@ export function DropdownMenuDemo({ children }: {
                 <DropdownMenuGroup>
                     <a
                         href={`#wa`}
-                        target="_self"
                     >
                         <DropdownMenuItem>
                             <span>How to Join Ludo Group</span>
@@ -42,26 +41,25 @@ export function DropdownMenuDemo({ children }: {
                     </a>
                     <a
                         href={`#play`}
-                        target="_self"
                     >
                         <DropdownMenuItem>
                             <span>How to play</span>
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href={`#withdraw`}
-                        target="_self"
+                        href='#withdraw'
+                        target='_parent'
                     >
                         <DropdownMenuItem>
                             <span>How to Withdraw</span>
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href={`#about`}
+                        href={`/rules`}
                         target="_self"
                     >
                         <DropdownMenuItem>
-                            <span>About</span>
+                            <span>Rules</span>
                         </DropdownMenuItem>
                     </a>
                     <a
