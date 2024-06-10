@@ -12,7 +12,7 @@ function App() {
         <main className='font-satoshi-bold flex flex-col min-w-screen overflow-hidden px-8'>
           <Routes>
             <Route path='/' element={<Home />}/>
-              <Route path='/rules' element={<PDF_File />} />
+            <Route path='/rules' element={<PDF_File />} />
           </Routes>
         </main>
       </ThemeProvider>
