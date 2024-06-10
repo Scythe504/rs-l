@@ -7,7 +7,7 @@ export default function SecondSection() {
         <div>
             <img src={cloud} alt='cloud' />
         </div>
-        <div className='bg-[#dbdecb] h-fit w-screen -z-10 -mt-2 md:px-40 overflow-hidden    ' >
+        <div id='play' className='bg-[#dbdecb] h-fit w-screen -z-10 -mt-2 md:px-40 overflow-hidden    ' >
             <h1 className='text-center text-5xl text-black font-satoshi-black pt-4'>How To Play</h1>
             <p className='text-xl text-black text-center'>Watch youtube video, <a 
             href="https://youtu.be/s3ZALjXtODY?si=RoMnaBVjgl74-AyU" 

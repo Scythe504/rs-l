@@ -8,7 +8,7 @@ export default function FourthSection() {
                 <img src={cut} alt='dice' />
             </div>
             <div className='bg-[#444244] w-screen -mt-8 z-20 sm:px-24'>
-                <h1 className='text-5xl text-center'>About</h1>
+                <h1 className='text-5xl text-center' id='about'>About</h1>
                 <div className='ml-7 text-left gap-2 flex flex-col'>
                     <h1 className='text-2xl text-center mr-6 p-1' >
                         Rules and Regulations
@@ -17,7 +17,7 @@ export default function FourthSection() {
                 </div>
                 <br />
                 <div className='bg-[#444244] w-screen ml-7 z-20 pb-10 text-left'>
-                    <h1 className='text-4xl'>Contact</h1>
+                    <h1 className='text-4xl' id='contact'>Contact</h1>
                     <br />
                     <p>
                         We are open for business. Feel free to drop us a line or send your brief.

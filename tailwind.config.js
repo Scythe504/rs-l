@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         'satoshi-bold': ['Satoshi-Bold', 'sans-serif'],
         'satoshi-black': ['Satoshi-Black', 'sans-serif'],
+        'lactosa':['Lactosa Regular', 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",
