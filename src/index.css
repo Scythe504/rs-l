@@ -94,6 +94,15 @@
 
 *
 */
+@keyframes pulse {
+  50% {
+      opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 0.1s cubic-bezier(0.4, 0, 0, 1) infinite;
+}
+
 @font-face {
   font-family: 'Satoshi-Bold';
   src: url('./assets/fonts/Satoshi-Bold.woff2') format('woff2');

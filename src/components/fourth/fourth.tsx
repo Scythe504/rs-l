@@ -7,7 +7,7 @@ export default function FourthSection() {
 
     const navigate = useNavigate()
     return <div>
-        <div className='h-full flex flex-col justify-center items-center w-full gap-6'>
+        <div className='h-full flex flex-col justify-center items-center w-full gap-6 '>
             <div className='-mx-12 -mt-8 z-20'>
                 <img src={cut} alt='dice' />
             </div>
@@ -20,12 +20,8 @@ export default function FourthSection() {
                     <Button onClick={()=>navigate('/rules')}>Check the game rules</Button>
                 </div>
                 <br />
-                <div className='bg-[#444244] w-screen px-3 z-20 pb-10 text-left'>
-                    <h1 className='text-4xl text-center' id='contact'>Contact</h1>
-                    <br />
-                    <p>
-                        We are open for business. Feel free to drop us a line or send your brief.
-                    </p>
+                <div className='bg-[#444244] w-screen px-4 z-20 pb-10 md:px-20'>
+                    <h1 className='text-4xl text-center md:mr-44' itemID='contact'>Contact</h1>
                     <br />
                     <a href='https://wa.link/hdv7d0'
                         className='flex flex-row space-x-4 items-center justify-start'
@@ -42,7 +38,7 @@ export default function FourthSection() {
                             width={30} />&nbsp;Email
                     </a>
                     <br />
-                <p className='text-center'>To join group or any help please Whatsapp or Email us.</p>
+                <p className='text-center md:mr-44'>To join group or any help please Whatsapp or Email us.</p>
                 </div>
             </div>
         </div>

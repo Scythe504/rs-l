@@ -16,7 +16,7 @@ export default function TopSection() {
             <p className='text-left text-xl p-1'>Ludo Whatsapp Group Platform
                 to earn real money
             </p>
-            <Button id='wa' className='animate-pulse shadow-white shadow-md bg-clip-border bg-white rounded-md p-4 ml-1 w-fit'>
+            <Button id='wa' className='animate-pulse shadow-orange-600 shadow-lg bg-clip-border bg-white rounded-md p-4 ml-1 w-fit'>
                 <a href='https://wa.link/hdv7d0' 
                     target='_blank'
                 className='flex flex-row space-x-1 object-contain items-center'>
