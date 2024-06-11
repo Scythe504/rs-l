@@ -21,7 +21,7 @@ export default function FourthSection() {
                         Rules and Regulations
                     </h1>
                     <Button onClick={() => navigate('/rules')}>Check the game rules</Button>
-                </div>
+            </div>
                 <br />
                 <div className='bg-[#444244] w-screen px-4 z-20 pb-10 md:px-20'>
                     <h1 className='text-4xl text-center md:mr-44' id='contact'>Contact</h1>

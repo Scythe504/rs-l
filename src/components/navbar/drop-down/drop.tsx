@@ -65,7 +65,7 @@ export function DropdownMenuDemo({ children }: {
                     </a>
                    
                     <a
-                        href={` /#contact`}
+                        href={`/contact`}
                         target="_self"
                     >
                         <DropdownMenuItem>

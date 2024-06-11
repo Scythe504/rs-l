@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='/rules' element={<PDF_File />} />
-            <Route path='/about' element={<About/>}/>
+            <Route path='/contact' element={<About/>}/>
             <Route path='/how-to-play' element={<HowToPlay/>}/>
             <Route path='/withdraw' element={<Withdraw/>}/>
             <Route path='/wa' element={<Join/>}/>
