@@ -6,6 +6,7 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import HowToPlay from './components/how-to-play/play';
 import Withdraw from './components/withdraw/withdraw';
+import Join from './components/join/join';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/about' element={<About/>}/>
             <Route path='/how-to-play' element={<HowToPlay/>}/>
             <Route path='/withdraw' element={<Withdraw/>}/>
+            <Route path='/wa' element={<Join/>}/>
           </Routes>
         </main>
       </ThemeProvider>

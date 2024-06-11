@@ -21,7 +21,7 @@ export default function FourthSection() {
                 </div>
                 <br />
                 <div className='bg-[#444244] w-screen px-3 z-20 pb-10 text-left'>
-                    <h1 className='text-4xl' id='contact'>Contact</h1>
+                    <h1 className='text-4xl text-center' id='contact'>Contact</h1>
                     <br />
                     <p>
                         We are open for business. Feel free to drop us a line or send your brief.

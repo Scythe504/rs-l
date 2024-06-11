@@ -35,7 +35,7 @@ export function DropdownMenuDemo({ children }: {
                     </a>
                 <DropdownMenuGroup>
                     <a
-                        href={`#wa`}
+                        href={`/wa`}
                     >
                         <DropdownMenuItem>
                             <span>How to Join Ludo Group</span>
@@ -66,7 +66,15 @@ export function DropdownMenuDemo({ children }: {
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href={`#contact`}
+                        onClick={()=>navigation('/about')}
+                        target="_self"
+                    >
+                        <DropdownMenuItem>
+                            <span>About</span>
+                        </DropdownMenuItem>
+                    </a>
+                    <a
+                        href={`/#contact`}
                         target="_self"
                     >
                         <DropdownMenuItem>
