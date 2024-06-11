@@ -5,12 +5,9 @@ import { Loader } from "../loading/loading";
 export default function PDF_File() {
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        const s = async () => {
-            setTimeout(() => {
-                 setLoading(false)
-            }, 3000)
-        };
-        s();
+        setTimeout(() => {
+            setLoading(false)
+        }, 3000)
     }, [loading])
     return <div className="min-w-screen min-h-screen">
         {loading ? (
