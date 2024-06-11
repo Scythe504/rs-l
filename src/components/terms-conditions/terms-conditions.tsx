@@ -1,6 +1,6 @@
 import Navbar from "../navbar/navbar";
 
-export function PDF_File() {
+export default function PDF_File() {
 
     return <div className="min-w-screen min-h-screen">
         <div>
