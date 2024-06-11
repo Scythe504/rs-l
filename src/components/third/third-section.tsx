@@ -10,7 +10,7 @@ export default function ThirdSection() {
                 <br />
                 <p className='ml-1 text-xl'>Watch this YouTube video:<a href="" target='_blank' className='underline text-orange-500 bg-black bg-clip-text'>Click here</a></p>
                 <br></br>
-                <div className='ml-7 text-left gap-2 flex flex-col text-xl'>
+                <div className='ml-2 text-left gap-2 flex flex-col text-xl'>
                     <p>Step 1. Direct Message to admin,
                         "I want to withdraw my money."
                     </p>

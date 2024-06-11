@@ -12,12 +12,12 @@ export default function FourthSection() {
                 <img src={cut} alt='dice' />
             </div>
             <div className='bg-[#444244] w-screen -mt-8 z-20 sm:px-24' id='about'>
-                <h1 className='text-5xl text-center'>About</h1>
+                <h1 className='text-5xl text-center text-orange-500'>About</h1>
                 <br />
                 <p className='text-2xl text-center'>We are Providing a Platform where you can use your Ludo Skills to Earn Real Money</p>
-
+                <br />
                 <div className='px-8 text-left gap-2 flex flex-col'>
-                    <h1 className='text-2xl text-center mr-6 p-1' >
+                    <h1 className='text-4xl text-center mr-6 p-1 text-orange-500 ' >
                         Rules and Regulations
                     </h1>
                     <Button onClick={() => navigate('/rules')}>Check the game rules</Button>
