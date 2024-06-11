@@ -8,12 +8,10 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { useNavigate } from "react-router-dom"
 
 export function DropdownMenuDemo({ children }: {
     children: React.ReactNode
 }) {
-    const navigation = useNavigate();
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -58,7 +56,7 @@ export function DropdownMenuDemo({ children }: {
                         </DropdownMenuItem>
                     </a>
                     <a
-                        onClick={()=>navigation('/rules')}
+                        href='/rules'
                         target="_self"
                     >
                         <DropdownMenuItem>
@@ -66,7 +64,7 @@ export function DropdownMenuDemo({ children }: {
                         </DropdownMenuItem>
                     </a>
                     <a
-                        onClick={()=>navigation('/about')}
+                        href='/about'
                         target="_self"
                     >
                         <DropdownMenuItem>
@@ -74,7 +72,7 @@ export function DropdownMenuDemo({ children }: {
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href={`/#contact`}
+                        href={` /#contact`}
                         target="_self"
                     >
                         <DropdownMenuItem>
