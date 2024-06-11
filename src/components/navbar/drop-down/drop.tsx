@@ -63,14 +63,14 @@ export function DropdownMenuDemo({ children }: {
                             <span>Rules</span>
                         </DropdownMenuItem>
                     </a>
-                    <a
+                    {/* <a
                         href='/about'
                         target="_self"
                     >
                         <DropdownMenuItem>
                             <span>About</span>
                         </DropdownMenuItem>
-                    </a>
+                    </a> */}
                     <a
                         href={` /#contact`}
                         target="_self"

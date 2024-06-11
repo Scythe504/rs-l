@@ -13,11 +13,14 @@ export default function FourthSection() {
             </div>
             <div className='bg-[#444244] w-screen -mt-8 z-20 sm:px-24' id='about'>
                 <h1 className='text-5xl text-center'>About</h1>
+                <br />
+                <p className='text-2xl text-center'>We are Providing a Platform where you can use your Ludo Skills to Earn Real Money</p>
+
                 <div className='px-8 text-left gap-2 flex flex-col'>
                     <h1 className='text-2xl text-center mr-6 p-1' >
                         Rules and Regulations
                     </h1>
-                    <Button onClick={()=>navigate('/rules')}>Check the game rules</Button>
+                    <Button onClick={() => navigate('/rules')}>Check the game rules</Button>
                 </div>
                 <br />
                 <div className='bg-[#444244] w-screen px-4 z-20 pb-10 md:px-20'>
@@ -38,7 +41,7 @@ export default function FourthSection() {
                             width={30} />&nbsp;Email
                     </a>
                     <br />
-                <p className='text-center md:mr-44'>To join group or any help please Whatsapp or Email us.</p>
+                    <p className='text-center md:mr-44'>To join group or any help please Whatsapp or Email us.</p>
                 </div>
             </div>
         </div>
