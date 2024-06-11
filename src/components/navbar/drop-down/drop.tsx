@@ -42,22 +42,22 @@ export function DropdownMenuDemo({ children }: {
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href={`#play`}
+                        href={`/how-to-play`}
+                        target="_self"
                     >
                         <DropdownMenuItem>
                             <span>How to play</span>
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href='#withdraw'
-                        target='_parent'
+                        href='/withdraw'
+                        target='_self'
                     >
                         <DropdownMenuItem>
                             <span>How to Withdraw</span>
                         </DropdownMenuItem>
                     </a>
                     <a
-                        href="#"
                         onClick={()=>navigation('/rules')}
                         target="_self"
                     >

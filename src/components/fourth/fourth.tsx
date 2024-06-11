@@ -20,7 +20,7 @@ export default function FourthSection() {
                     <Button onClick={()=>navigate('/rules')}>Check the game rules</Button>
                 </div>
                 <br />
-                <div className='bg-[#444244] w-screen ml-7 z-20 pb-10 text-left'>
+                <div className='bg-[#444244] w-screen px-3 z-20 pb-10 text-left'>
                     <h1 className='text-4xl' id='contact'>Contact</h1>
                     <br />
                     <p>
@@ -42,7 +42,7 @@ export default function FourthSection() {
                             width={30} />&nbsp;Email
                     </a>
                     <br />
-                <p>For any help please Whatsapp or Email us.</p>
+                <p className='text-center'>To join group or any help please Whatsapp or Email us.</p>
                 </div>
             </div>
         </div>
