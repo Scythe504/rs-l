@@ -3,7 +3,7 @@ import Navbar from '../navbar/navbar'
 
 export default function Withdraw() {
     return <div >
-        <Navbar/>
+        <Navbar />
         <div className='h-full flex flex-col justify-center items-center w-full gap-6 md:translate-y-12'>
             <div className='-mx-8 z-10'>
                 <img src={mountain} alt='dice' />
@@ -11,15 +11,12 @@ export default function Withdraw() {
             <div id='withdraw' className='bg-[#a8925b] w-screen -mt-8 z-10 pb-16 sm:px-24 h-[750px] px-2'>
                 <h1 className='text-5xl'>How to Withdraw</h1>
                 <br />
-                <br></br>
-                <div className='ml-7 text-left gap-2 flex flex-col'>
-                    <h1 className='text-3xl' >
-                        Steps:
-                    </h1>
-                    <p>1. Direct Message to admin,
+                <p className='ml-1 text-xl'>Watch this YouTube video:<a href="" target='_blank' className='underline text-orange-500 bg-black bg-clip-text'>Click here</a></p>
+                <div className='ml-7 text-left gap-2 flex flex-col text-2xl'>
+                    <p>Step 1. Direct Message to admin,
                         "I want to withdraw my money."
                     </p>
-                    <p>2. Withdrawal will be done in 5 minutes</p>
+                    <p>Step 2. Withdrawal will be done in 5 minutes</p>
                 </div>
             </div>
         </div>
