@@ -2,7 +2,7 @@ import { MailIcon } from 'lucide-react'
 import cut from '/cuts.png'
 import wa from '/wa.svg'
 import Navbar from '../navbar/navbar'
-export default function FourthSection() {
+export default function Contact() {
 
     return <div>
         <Navbar/>

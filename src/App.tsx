@@ -3,10 +3,10 @@ import { ThemeProvider } from './components/theme-provider';
 import PDF_File from './components/terms-conditions/terms-conditions';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/home';
-import About from './components/about/about';
 import HowToPlay from './components/how-to-play/play';
 import Withdraw from './components/withdraw/withdraw';
 import Join from './components/join/join';
+import Contact from './components/about/about';
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='/rules' element={<PDF_File />} />
-            <Route path='/contact' element={<About/>}/>
+            <Route path='/contact' element={<Contact/>}/>
             <Route path='/how-to-play' element={<HowToPlay/>}/>
             <Route path='/withdraw' element={<Withdraw/>}/>
             <Route path='/wa' element={<Join/>}/>
