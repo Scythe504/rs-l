@@ -22,7 +22,7 @@ export default function Home() {
             </>
             )
             setLoading(false);
-        }, 3000)
+        }, 1000)
     }, [loading])
     return <div>
         {
