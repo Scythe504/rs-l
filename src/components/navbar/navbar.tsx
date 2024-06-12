@@ -8,17 +8,19 @@ export default function Navbar() {
     return <header className='w-full h-[150px] py-2 flex flex-row justify-between items-center'>
         {/* logo */}
         <div className="flex flex-col text-2xl"
-            onClick={()=> navigate('/')}
+            onClick={() => navigate('/')}
         >
             <div className='flex flex-row space-x-2 font-lactosa'>
                 <span className='ml-2'>
                     Rs
                 </span>
-                <img src={logo}
-                    height={30}
-                    width={50}
-                    className='bg-blend-exclusion'
-                />
+                <span>
+                    <img src={logo}
+                        height={30}
+                        width={50}
+                        className='bg-blend-exclusion'
+                    />
+                </span>
             </div>
             <div className='font-lactosa flex flex-row space-x-1'>
                 <p className='text-orange-600 text-3xl'>Ludo</p>
@@ -27,7 +29,7 @@ export default function Navbar() {
         </div>
         {/* menu bar */}
         <DropdownMenuDemo>
-            <LucideAlignJustify/>
+            <LucideAlignJustify />
         </DropdownMenuDemo>
     </header>
 }
