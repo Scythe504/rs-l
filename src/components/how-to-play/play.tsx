@@ -1,5 +1,5 @@
 import { instructions } from '@/metadata/metadata';
-import cloud from '../../assets/badal.png';
+import cloud from '/badal.png';
 import { Card } from '../ui/card';
 import Navbar from '../navbar/navbar';
 

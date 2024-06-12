@@ -1,5 +1,5 @@
-import dice from '../../assets/mobile-fiest.png';
-import wa from '../../assets/wa.svg'
+import dice from '/mobile-fiest.png';
+import wa from '/wa.svg'
 import { Button } from '../ui/button';
 export default function TopSection() {
     return <div>

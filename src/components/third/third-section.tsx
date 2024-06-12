@@ -1,4 +1,4 @@
-import mountain from '../../assets/pahad.png'
+import mountain from '/pahad.png'
 export default function ThirdSection() {
     return <div >
         <div className='h-full flex flex-col justify-center items-center w-full gap-6 md:translate-y-12'>

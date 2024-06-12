@@ -1,6 +1,6 @@
 import { MailIcon } from 'lucide-react'
-import cut from '../../assets/cuts.png'
-import wa from '../../assets/wa.svg'
+import cut from '/cuts.png'
+import wa from '/wa.svg'
 import { Button } from '../ui/button'
 import { useNavigate } from 'react-router-dom'
 export default function FourthSection() {

@@ -1,6 +1,6 @@
 import { MailIcon } from 'lucide-react'
-import cut from '../../assets/cuts.png'
-import wa from '../../assets/wa.svg'
+import cut from '/cuts.png'
+import wa from '/wa.svg'
 import Navbar from '../navbar/navbar'
 export default function FourthSection() {
 

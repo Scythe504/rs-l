@@ -1,5 +1,5 @@
 import { LucideAlignJustify } from 'lucide-react'
-import logo from '../../assets/crown.png'
+import logo from '/crown.png'
 import { DropdownMenuDemo } from './drop-down/drop'
 import { useNavigate } from 'react-router-dom'
 

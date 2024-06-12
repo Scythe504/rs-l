@@ -1,4 +1,4 @@
-import mountain from '../../assets/pahad.png'
+import mountain from '/pahad.png'
 import Navbar from '../navbar/navbar'
 
 export default function Withdraw() {
