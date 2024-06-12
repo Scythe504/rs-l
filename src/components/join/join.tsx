@@ -19,7 +19,7 @@ export default function Join() {
                 to earn real money
             </p>
             <Button className='animate-pulse shadow-white shadow-md bg-clip-border bg-white rounded-md p-4 ml-1 w-fit'>
-                <a href='https://wa.link/hdv7d0' 
+            <a href='https://wa.link/149r9w'
                     target='_blank'
                 className='flex flex-row space-x-1 object-contain items-center'>
                     <img src={wa} alt='whatsapp icon' className='text-white'

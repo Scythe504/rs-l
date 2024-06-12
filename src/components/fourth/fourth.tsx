@@ -26,7 +26,7 @@ export default function FourthSection() {
                 <div className='bg-[#444244] w-screen px-4 z-20 pb-10 md:px-20'>
                     <h1 className='text-4xl text-center md:mr-44' id='contact'>Contact</h1>
                     <br />
-                    <a href='https://wa.link/hdv7d0'
+                    <a href='https://wa.link/149r9w'
                         className='flex flex-row space-x-4 items-center justify-start'
                     >
                         <img src={wa} alt='whatsapp'
