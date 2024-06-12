@@ -9,7 +9,7 @@ export default function HowToPlay() {
             <Navbar />
         <div className='-mx-8 mt-6 w-screen'>
             <div className=' bg-bottom-[#dbdecb]'>
-                <img src={cloud} alt='cloud' />
+                <img src={cloud} alt='cloud' height={400} width={1920} />
             </div>
             <div id='play' className='bg-[#dbdecb] h-fit w-screen -z-10 -mt-2 md:px-40 overflow-hidden pb-20' >
                 <h1 className='text-center text-5xl text-black font-satoshi-black pt-4'>How To Play</h1>

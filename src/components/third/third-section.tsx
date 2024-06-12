@@ -3,7 +3,7 @@ export default function ThirdSection() {
     return <div >
         <div className='h-full flex flex-col justify-center items-center w-full gap-6 md:translate-y-12'>
             <div className='-mx-8 -mt-28 z-10'>
-                <img src={mountain} alt='dice' />
+                <img src={mountain} alt='dice' height={400} width={1920} />
             </div>
             <div id='withdraw' className='bg-[#a8925b] w-screen -mt-8 z-10 pb-16 sm:px-24 h-[350px] px-2'>
                 <h1 className='text-4xl text-center text-black'>How to Withdraw</h1>

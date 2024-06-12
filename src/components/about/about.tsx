@@ -8,7 +8,7 @@ export default function Contact() {
         <Navbar/>
         <div className='h-full flex flex-col justify-center items-center w-full'>
             <div className='-mx-12  z-20'>
-                <img src={cut} alt='dice' />
+                <img src={cut} alt='cuts' height={400} width={1920} />
             </div>
             <br />
             <div className='bg-[#444244] w-screen px-4 z-20 pb-10 md:px-20 h-screen -mt-8'>

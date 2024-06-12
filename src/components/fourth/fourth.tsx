@@ -9,7 +9,7 @@ export default function FourthSection() {
     return <div>
         <div className='h-full flex flex-col justify-center items-center w-full gap-6 '>
             <div className='-mx-12 -mt-8 z-20'>
-                <img src={cut} alt='dice' />
+                <img src={cut} alt='dice' width={1920}  height={400}/>
             </div>
             <div className='bg-[#444244] w-screen -mt-8 z-20 sm:px-24' id='about'>
                 <h1 className='text-5xl text-center text-orange-500'>About</h1>
