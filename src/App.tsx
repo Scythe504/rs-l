@@ -7,12 +7,10 @@ import About from './components/about/about';
 import HowToPlay from './components/how-to-play/play';
 import Withdraw from './components/withdraw/withdraw';
 import Join from './components/join/join';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
-
-  return (<>
+  
+  return (
     <BrowserRouter>
       <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
         <main className='font-satoshi-bold flex flex-col min-w-screen overflow-hidden px-8'>
@@ -26,10 +24,7 @@ function App() {
           </Routes>
         </main>
       </ThemeProvider>
-      <Analytics/>
-      <SpeedInsights/>
     </BrowserRouter>
-  </>
   )
 }
 

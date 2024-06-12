@@ -1,4 +1,4 @@
-import { instructions } from '@/metadata/metadata';
+import { instructions } from '@/data/metadata';
 import cloud from '/badal.png';
 import { Card } from '../ui/card';
 import Navbar from '../navbar/navbar';
