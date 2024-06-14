@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 export default function Navbar() {
     const navigate = useNavigate()
-    return <header className='w-full h-[150px] py-2 flex flex-row justify-between items-center'>
+    return <header className='w-full h-[150px] py-1 flex flex-row justify-between items-center'>
         {/* logo */}
         <div className="flex flex-col text-2xl"
             onClick={() => navigate('/')}
@@ -24,7 +24,7 @@ export default function Navbar() {
             </div>
             <div className='font-lactosa flex flex-row space-x-1'>
                 <p className='text-orange-600 text-2xl'>Trusted</p>
-                <p className='text-4xl'>Group</p>
+                <p className='text-3xl'>Group</p>
             </div>
         </div>
         {/* menu bar */}
