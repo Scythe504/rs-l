@@ -23,7 +23,7 @@ export default function Navbar() {
                 </span>
             </div>
             <div className='font-lactosa flex flex-row space-x-1'>
-                <p className='text-orange-600 text-3xl'>Ludo</p>
+                <p className='text-orange-600 text-2xl'>Trusted</p>
                 <p className='text-4xl'>Group</p>
             </div>
         </div>
