@@ -3,11 +3,11 @@ import wa from '/wa.svg'
 import { Button } from '../ui/button';
 export default function TopSection() {
     return <div>
-        <div className='h-full flex flex-col justify-center items-center w-full gap-6'>
+        <div className='h-full flex flex-col justify-center items-center w-full gap-3'>
             <div>
                 <img src={dice} alt='dice'
                     height={300}
-                    width={300}
+                    width={320}
                 />
             </div>
         </div>
