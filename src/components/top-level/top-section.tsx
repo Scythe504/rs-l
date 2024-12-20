@@ -17,7 +17,7 @@ export default function TopSection() {
                 to earn real money
             </p>
             <Button id='wa' className='animate-pulse shadow-orange-600 shadow-lg bg-clip-border bg-white rounded-md p-4 ml-1 w-fit'>
-            <a href='https://wa.link/j47jt6'
+            <a href='https://chat.whatsapp.com/CIqIya4CWd85uu7hYvfa62'
                     target='_blank'
                 className='flex flex-row space-x-1 object-contain items-center'>
                     <img src={wa} alt='whatsapp icon' className='text-white'

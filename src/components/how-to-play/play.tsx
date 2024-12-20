@@ -15,7 +15,7 @@ export default function HowToPlay() {
                 <h1 className='text-center text-5xl text-black font-satoshi-black pt-4'>How To Play</h1>
                 <br />
                 <p className='text-xl text-black text-center'>Watch youtube video, <a
-                    href="https://youtu.be/s3ZALjXtODY?si=RoMnaBVjgl74-AyU"
+                    href="https://youtube.com/shorts/DIRruknvXR4?si=VKVqx0wrAI7yNY9J"
                     target='_blank'
                     className='underline text-orange-500'>Click Here
                 </a>
